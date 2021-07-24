@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    min-width: 350px;
+    min-height: 405px;
+    max-width: 350px;
+    max-height: 405px;
+    background-color: red;
+    --primary-color: #3D43E5;
+}
+
+section {
+    background: #E5E4E4;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mark {
+    color: var(--primary-color);
+}
+
+.container {
+    background: #F9FBFE;
+    height: 405px;
+    width: 80%;
+    padding: 15px 30px 100px 30px;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-el {
+    margin: 15px 0px 10px 0px;
+    width: 100%;
+    background: transparent;
+    padding: 12px;
+    border: 1.9px solid var(--primary-color);
+    border-radius: 15px;
+}
+
+#input-el:focus {
+    outline: none;
+    background: #e8ebef;
+    transition: ease .2s;
+}
+
+.buttons-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-btn {
+    color: #F9FBFE;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 25px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 10px;
+}
+
+.input-btn:hover {
+    cursor: pointer;
+    background: transparent;
+    color: black;
+    transition: ease .3s;
+}
+
+.tabs-container {
+    margin-top: 40px;
+}
+
+.saved-tabs-title {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #c4c6d3;
+    display: flex;
+    justify-content: space-between;
+}
+
+#clearBtn {
+    background: transparent;
+    border: none;
+}
+
+.material-icons.md-18 {
+    color: black;
+    font-size: 22px; 
+}
+
+.material-icons.md-18:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#tabs-list {
+    margin-top: 10px;
+    overflow-y: auto;
+    height: 265px;
+}
+
+li {
+    list-style: circle;
+}
+
+li a {
+    color: var(--primary-color);
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+}
+
+.dismissBtn {
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.dismissBtn:hover {
+    font-weight: 700;
+    color: red;
+    cursor: pointer;
+}

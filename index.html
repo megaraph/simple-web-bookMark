@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <!-- Scripts -->
+        <script src="script.js"></script>
+
+        <!-- Identifiers -->
+        <link rel="shortcut icon" href="brand.svg" type="image/x-icon">
+        <title>Tab saver</title>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="inputs-container">
+                    <img src="brand.svg" height="40" alt="brand-logo">
+                    <h1> 
+                        Simple Web book<span class="mark">Mark</span>
+                    </h1>
+                    <input type="text" name="input-el" id="input-el">
+                    <div class="buttons-container">
+                        <button class="input-btn" id="input-btn">Save Input</button>
+                        <button class="input-btn" id="save-btn">Save Tab</button>
+                    </div>
+                </div>
+                <div class="tabs-container">
+                    <div class="saved-tabs-title">
+                        <h3>Saved tabs:</h3>
+                        <button id="clearBtn"><i class="material-icons md-18">delete</i></button>
+                    </div>
+                    <div id="tabs-list">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
